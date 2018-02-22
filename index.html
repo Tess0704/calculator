@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class = "cal">
+  <div class="display">
+    
+  </div>
+  <div class="btnarea">
+    <div class="row justify-content-between">
+      <button class="btn func" id = "clear" onmouseover = "lighter(this)" onmouseleave = "darker(this)">C</button>
+      <button class="btn func" onmouseover = "lighter(this)" onmouseleave = "darker(this)">+/-</button>
+      <button class="btn func" onmouseover = "lighter(this)" onmouseleave = "darker(this)">%</button>
+      <button class="btn oper" id ="divide" value = '/' onclick= "oper(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">÷</button>
+    </div>
+    
+    <div class="row justify-content-between">
+      <button class="btn num" value = 7 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">7</button>
+      <button class="btn num" value = 8 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">8</button>
+      <button class="btn num" value = 9 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">9</button>
+      <button class="btn oper" id ="multiply" value = '*' onclick= "oper(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">x
+      </button>
+    </div>
+    
+     <div class="row justify-content-between">
+      <button class="btn num" value = 4 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">4</button>
+      <button class="btn num" value = 5 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">5</button>
+      <button class="btn num" value = 6 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">6</button>
+      <button class="btn oper" id ="minus" value = '-' onclick= "oper(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">-
+      </button>
+    </div>
+    
+    <div class="row justify-content-between">
+      <button class="btn num" value = 1 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">1</button>
+      <button class="btn num" value = 2 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">2</button>
+      <button class="btn num" value = 3 onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">3</button>
+      <button class="btn oper" id ="plus" value = '+' onclick= "oper(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">+
+      </button>
+    </div>
+  
+   <div class="row justify-content-between">
+      <button class="btn num" id="zero" value = 0 onclick= "list(this.value)"  onmouseover = "lighter(this)" onmouseleave = "darker(this)">0</button>
+      <button class="btn num" value = '.' onclick= "list(this.value)" onmouseover = "lighter(this)" onmouseleave = "darker(this)">.</button>
+      <button class="btn oper" id ="equal" >=
+      </button>
+    </div>
+
+    
+  </div>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
